@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-standard"
+  ],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "jsx-wrap-multiline": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": true,
+    "jsx-boolean-value": false,
+    "trailing-comma": false,
+    "no-any": true,
+    "no-console": true,
+    "no-debugger": true,
+    "no-trailing-whitespace": true,
+    "no-duplicate-imports": true,
+    "semicolon": true,
+    "quotemark": true,
+    "jsx-self-close": true,
+    "jsx-space-before-trailing-slash": true,
+    "no-duplicate-variable": true,
+    "no-empty-interface": false,
+    "no-var-keyword": true
+  },
+  "rulesDirectory": []
+}
